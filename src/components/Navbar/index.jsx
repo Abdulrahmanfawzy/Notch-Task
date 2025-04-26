@@ -21,7 +21,7 @@ function Navbar() {
 
   return (
     <header className="w-full fixed z-[99999] bg-white">
-      <div className="w-[95%] mx-auto px-6 py-6 flex items-center justify-between">
+      <div className="w-[90%] mx-auto px-6 py-6 flex items-center justify-between">
         <h2 className="text-3xl font-bold">
           Notch<span className="text-3xl text-[#F15C45]">.</span>
         </h2>
@@ -60,12 +60,12 @@ function Navbar() {
         <div className="hidden lg:flex text-sm gap-4">
           <a
             href="#"
-            className="px-4 py-2 font-semibold hover:text-[#F55B47] duration-300 rounded-md border transition">
+            className="px-4 py-2 font-semibold hover:bg-[#F55B47] hover:text-white duration-300 rounded-md border border-gray-400 transition">
             Login
           </a>
           <a
             href="#"
-            className="px-4 py-2 font-semibold text-white bg-[#F55B47] hover:text-[#F55B47] duration-300 rounded-md transition">
+            className="px-4 py-2 font-semibold text-white bg-[#F55B47] hover:bg-transparent hover:border-[#F55B47] border hover:text-[#F55B47] duration-300 rounded-md transition">
             Signup
           </a>
         </div>
@@ -96,7 +96,7 @@ function Navbar() {
           </a>
           <a
             href="#"
-            className="px-4 py-2 block w-full text-center font-semibold text-white bg-[#F55B47] hover:text-[#F55B47] duration-300 rounded-md transition">
+            className="px-4 py-2 block w-full text-center font-semibold text-white bg-[#F55B47] hover:text-white duration-300 rounded-md transition">
             Signup
           </a>
         </div>

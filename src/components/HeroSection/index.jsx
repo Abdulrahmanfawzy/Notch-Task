@@ -12,10 +12,10 @@ function HeroSection() {
   const [isAnimating, setIsAnimating] = useState(false);
 
   return (
-    <div id="home" className="bg-white mb-[100px] relative">
+    <div id="home" className="bg-white mb-[100px] mx-auto relative">
       <div className="w-50 h-50 blur-2xl rounded-full absolute bottom-0 left-0 bg-[#F6DC43]/10"></div>
 
-      <div className="flex-wrap flex-col justify-center flex py-20 pt-30 lg:py-0 lg:h-screen lg:flex-row lg:justify-between items-center w-[90%] mx-auto">
+      <div className="flex-wrap flex-col justify-center flex py-20 pt-30 lg:py-0 lg:h-screen lg:flex-row lg:justify-between items-center w-[87%] mx-auto">
         <div className="lg:w-[43%] lg:text-left w-full text-center">
           <div className="space-y-5">
             <p className="text-[#F55B47] font-semibold mx-auto lg:mx-0 shadow-gray-200 shadow-xs text-sm w-fit capitalize p-3 rounded-md mb-3">
